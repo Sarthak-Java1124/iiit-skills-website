@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>IIIT Skills | Empowering Coders</title>
+</head>
+
+<body class="bg-slate-900 text-white font-sans">
+    <!-- Navbar -->
+    <nav class="w-full h-16 bg-indigo-500 flex justify-between items-center px-6 shadow-lg">
+        <div class="text-2xl font-extrabold text-white">IIIT Skills</div>
+        <ul class="hidden md:flex space-x-6 font-semibold">
+            <li class="hover:text-yellow-300 cursor-pointer transition-all">Home</li>
+            <li class="hover:text-yellow-300 cursor-pointer transition-all">About Us</li>
+            <li class="hover:text-yellow-300 cursor-pointer transition-all">Contact</li>
+        </ul>
+        <button
+            class="hidden md:block bg-yellow-400 text-black px-4 py-2 rounded-md font-bold hover:bg-yellow-300 transition-all">Login
+            / SignUp</button>
+        <div class="md:hidden text-white text-3xl cursor-pointer">&#8801;</div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="w-full">
+        <img class="hidden md:block w-full h-[450px] object-cover"
+            src="https://cdn.pwskills.com/assets/uploads/project_gallery/6568229050c24454fa73bab0.png"
+            alt="Hero Desktop">
+        <img class="md:hidden w-full h-64 object-cover"
+            src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/about/e0e847c3-8c4f-42f8-ad59-47e140fbb2ab.jpeg"
+            alt="Hero Mobile">
+    </header>
+
+    <!-- Welcome Message -->
+    <section class="text-center py-12 px-4">
+        <h1
+            class="text-4xl md:text-6xl font-bold bg-gradient-to-r from-emerald-400 to-lime-500 bg-clip-text text-transparent">
+            Welcome to IIIT Sonepat Skills
+        </h1>
+        <div class="w-32 h-1 bg-yellow-400 mx-auto my-4 rounded-xl"></div>
+        <div class="flex flex-wrap justify-evenly mt-8">
+            <!-- Stats -->
+            <div class="flex flex-col items-center mb-10">
+                <img src="https://pwclonewebsite.vercel.app/assets/books-icon.svg" alt="Courses" class="w-24 h-24">
+                <p class="text-3xl font-bold">6+</p>
+                <p class="text-xl bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">Different
+                    Courses</p>
+            </div>
+            <div class="flex flex-col items-center mb-10">
+                <img src="https://pwclonewebsite.vercel.app/assets/student-icon.svg" alt="Students" class="w-24 h-24">
+                <p class="text-3xl font-bold">800+</p>
+                <p class="text-xl bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">Students
+                    Enrolled</p>
+            </div>
+            <div class="flex flex-col items-center mb-10">
+                <img src="https://pwclonewebsite.vercel.app/assets/credit-card-icon.svg" alt="Fees" class="w-24 h-24">
+                <p class="text-3xl font-bold">₹90,000</p>
+                <p class="text-xl bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">Tuition
+                    Fees</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Products -->
+    <section class="py-12 px-6 bg-slate-800">
+        <h2
+            class="text-center text-4xl font-bold bg-gradient-to-r from-emerald-400 to-lime-500 bg-clip-text text-transparent">
+            Our Products</h2>
+        <div class="w-24 h-1 bg-yellow-400 mx-auto my-4 rounded-xl"></div>
+        <div class="flex flex-wrap justify-center gap-6 mt-10">
+            <!-- Product Card Template -->
+            <div
+                class="bg-slate-700 p-5 rounded-xl w-72 text-center hover:scale-105 transform transition-all cursor-pointer">
+                <img class="w-24 h-24 mx-auto mb-4"
+                    src="https://pwclonewebsite.vercel.app/assets/ourProdyuct/neurolab-icon.svg" alt="IIIT Skills Lab">
+                <h3 class="text-2xl font-bold">IIIT Skills Lab</h3>
+                <p class="text-sm mt-2">Supercharge your project development with our robust platform and hands-on
+                    tools.</p>
+            </div>
+            <div
+                class="bg-slate-700 p-5 rounded-xl w-72 text-center hover:scale-105 transform transition-all cursor-pointer">
+                <img class="w-24 h-24 mx-auto mb-4"
+                    src="https://pwclonewebsite.vercel.app/assets/ourProdyuct/jobPortal-icon.svg" alt="Job Portal">
+                <h3 class="text-2xl font-bold">Job Portal</h3>
+                <p class="text-sm mt-2">Use exceptional resume templates to stand out—no sign-up required!</p>
+            </div>
+            <div
+                class="bg-slate-700 p-5 rounded-xl w-72 text-center hover:scale-105 transform transition-all cursor-pointer">
+                <img class="w-24 h-24 mx-auto mb-4"
+                    src="https://pwclonewebsite.vercel.app/assets/ourProdyuct/Internship-icon.svg"
+                    alt="Experience Portal">
+                <h3 class="text-2xl font-bold">Experience Portal</h3>
+                <p class="text-sm mt-2">Hands-on internship projects (570+!) to prepare you for real-world dev work.</p>
+            </div>
+            <div
+                class="bg-slate-700 p-5 rounded-xl w-72 text-center hover:scale-105 transform transition-all cursor-pointer">
+                <img class="w-24 h-24 mx-auto mb-4"
+                    src="https://pwclonewebsite.vercel.app/assets/ourProdyuct/affilitatePortal-icon.svg"
+                    alt="Affiliate">
+                <h3 class="text-2xl font-bold">Affiliate Portal</h3>
+                <p class="text-sm mt-2">Earn while you learn—become an IIIT Skills affiliate and gain financial
+                    independence.</p>
+            </div>
+            <div
+                class="bg-slate-700 p-5 rounded-xl w-72 text-center hover:scale-105 transform transition-all cursor-pointer">
+                <img class="w-24 h-24 mx-auto mb-4"
+                    src="https://pwclonewebsite.vercel.app/assets/ourProdyuct/halloffame-icon.svg" alt="Hall of Fame">
+                <h3 class="text-2xl font-bold">Hall of Fame</h3>
+                <p class="text-sm mt-2">100K+ career transitions. Join the legends and transform your future with us.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-10 px-6 flex flex-col md:flex-row justify-between">
+        <div>
+            <img src="https://pwclonewebsite.vercel.app/assets/PWSkills-main.png" alt="IIIT Logo"
+                class="w-40 h-16 bg-white p-1 rounded-md">
+            <p class="mt-3 text-sm">Email Us: iiitsonepat.ac.in</p>
+            <p class="text-sm mt-1">Contact Us</p>
+            <img src="https://pwclonewebsite.vercel.app/assets/iso-9001-2015.svg" alt="ISO Certified" class="w-20 mt-4">
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Click anywhere: log element clicked
+            document.body.addEventListener('click', function (event) {
+                const clicked = event.target;
+                const tag = clicked.tagName;
+                const text = clicked.innerText.trim();
+                const alt = clicked.alt || '';
+                const summary = text || alt || tag;
+                console.log(`You clicked on: ${summary}`);
+            });
+        });
+    </script>
+</body>
+
+</html>
